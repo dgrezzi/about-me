@@ -7,7 +7,7 @@ export function Main() {
                     <h1>Hello!</h1>
                     <h2>About me:</h2>
                     <p className="indent">
-                        "My name isDaniel and I'm a Brazilian living in West
+                        "My name is Daniel and I'm a Brazilian living in West
                         Sussex, England. Graduated in Chemistry, I have always had a
                         strong interest in programming. During college, I had the
                         opportunity to develop laboratory analysis equipment
