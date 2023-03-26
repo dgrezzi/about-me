@@ -1,0 +1,100 @@
+/* Main */
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 2rem 0 3rem 0;
+
+    img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 300px;
+        border: 2px solid var(--var_c1);
+        margin: 2rem 1rem 2rem 1rem;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 500px;
+        text-align: justify;
+        margin: 2rem 1rem 2rem 1rem;
+
+        h1 {
+            font-size: 3rem;
+            margin: 0 0 1rem 0;
+        }
+    }
+
+    .indent {
+        text-indent: 3rem;
+        margin: 5px 0 5px 0;
+    }
+
+    .menu-circle {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+        height: 8rem;
+        width: 100%;
+        justify-content: space-between;
+        margin-top: 3rem;
+
+        div {
+            display: flex;
+            align-items: flex-end;
+            width: 8rem;
+            height: 8rem;
+            justify-content: center;
+        }
+
+        p {
+            display: flex;
+            width: 7rem;
+            height: 7rem;
+            border-radius: 5rem;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.2rem;
+            border-width: 3x;
+            border-style: solid;
+            color: var(--var_c_txt);
+        }
+
+        p:hover {
+            width: 7.2rem;
+            height: 7.2rem;
+            background-color: white;
+            color: black;
+            transition: var(--time);
+            opacity: 0.5;
+            font-weight: bold;
+        }
+    }
+
+    .c1 {
+        background-color: var(--var_c1);
+        border-color: var(--var_b1);
+        color: var(--var_c1);
+    }
+
+    .c2 {
+        background-color: var(--var_c2);
+        border-color: var(--var_b2);
+        color: var(--var_c2);
+    }
+
+    .c3 {
+        background-color: var(--var_c3);
+        border-color: var(--var_b3);
+        color: var(--var_c3);
+    }
+}
