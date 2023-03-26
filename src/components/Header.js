@@ -10,7 +10,7 @@ export function Header() {
                     <p>front-end</p>
                 </div>
                 <div className="menu">
-                    <a href="/">
+                    <a href="/about-me">
                         <p className="un">About me</p>
                     </a>
                 </div>
