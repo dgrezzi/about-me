@@ -5,7 +5,7 @@ export default function Document() {
         <Html>
             <Head>
                 <title>Daniel G. Lima</title>
-                <link rel='shortcut icon' href='/favicon.svg' />
+                <link rel='shortcut icon' href='./favicon.svg' />
             </Head>
             <body>
                 <Main />
